@@ -1,0 +1,5 @@
+---
+# tasks file for dump-all
+- name: Dump all vars
+  action: >
+    template src={{ role_path }}/templates/dump-all.j2 dest=/tmp/ansible-{{ansible_date_time.epoch}}.all

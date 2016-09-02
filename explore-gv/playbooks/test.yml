@@ -1,0 +1,12 @@
+---
+- name: "Let's see the `all`"
+  hosts: all
+
+  roles:
+    - { role: dump-all }
+
+- name: "Let's see the `all:&webservers`"
+  hosts: all:&webservers
+
+  roles:
+    - { role: dump-all }

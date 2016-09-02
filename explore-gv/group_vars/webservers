@@ -1,0 +1,19 @@
+
+ENABLE_HTTP2: False
+BUNDLE_FILE: "empty_bundle.crt"
+CERT_DIR: /etc/ssl/certs
+CERT_FILE: self-signed.crt
+#COMBINED_CERT_FILE: self_signed_combined.crt
+#COMBINED_CERT_PATH: /etc/ssl/certs/self_signed_combined.crt
+DHPARAM: /etc/ssl/certs/dhparam.pem
+KEY_FILE: self-signed.key
+KEY_PATH: /etc/ssl/private
+KEY_SIZE: 2048
+LOCATIONS_DIR: /etc/nginx/locations
+SITES_ENABLED_DIR: /etc/nginx/sites-enabled
+SITES_AVAILABLE_DIR: /etc/nginx/sites-available
+
+
+
+
+        

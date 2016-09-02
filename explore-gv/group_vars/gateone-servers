@@ -1,0 +1,7 @@
+
+ATMOSPHERE_PATH: "{{ ATMOSPHERE_LOCATION }}"
+
+SERVER_SPECIFIC: lolz
+
+COMBINED_CERT_FILE: fullchain.pem
+COMBINED_CERT_PATH: /etc/ssl/certs/fullchain.pem

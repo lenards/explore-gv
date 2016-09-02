@@ -1,0 +1,8 @@
+ATMOSPHERE_LOCATION: /opt/dev/atmosphere
+
+COMBINED_CERT_FILE: self_signed_combined.crt
+COMBINED_CERT_PATH: /etc/ssl/certs/self_signed_combined.crt
+
+TEST_SANITY: False
+
+SERVER_SPECIFIC: whos-knows

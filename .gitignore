@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Temp files
+*~
+\#*\#
+*.swp
+
+#Keep secrets from getting commited
+variables.yml
+roles/app-generate-ini-config/files/*_variables.ini
+roles/atmosphere-setup-atmosphere/files/atmosphere_variables.ini
+roles/troposphere-setup-troposphere/files/troposphere_variables.ini
+roles/atmosphere-setup-atmosphere/files/*
+clank_env
+ratchet_env
+dynamic_ratchet_ansible_env.yml
+
+# ignore any initialization files (aka secrets or sensitive infoz)
+clank_init
+clank
+*-extras/*
+secrets*
+scratch
